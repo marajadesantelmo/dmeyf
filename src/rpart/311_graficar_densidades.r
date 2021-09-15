@@ -6,7 +6,7 @@ require("data.table")
 
 
 #Aqui comienza el programa
-setwd("~/buckets/b1/crudoB/")
+setwd("~/Investigación/1. Maestría DM/2021Economia") 
 
 datasetA  <- fread( "./datasetsOri/paquete_premium_202009.csv" )
 datasetB  <- fread( "./datasetsOri/paquete_premium_202011.csv" )
@@ -41,3 +41,5 @@ for( campo in  campos_buenos )
 
 }
 dev.off()
+
+

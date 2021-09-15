@@ -25,7 +25,7 @@ switch ( Sys.info()[['sysname']],
          Linux   = { directory.root   <-  "~/buckets/b1/crudo/" }  #Entorno Google Cloud
        )
 #defino la carpeta donde trabajo
-setwd( directory.root )
+setwd("~/Investigación/1. Maestría DM/2021Economia") 
 
 
 kexperimento  <- NA   #NA si se corre la primera vez, un valor concreto si es para continuar procesando
